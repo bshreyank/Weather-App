@@ -1,0 +1,28 @@
+.Earth__container {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.Earth__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Earth__image img {
+    height: 100%;
+    width: 49%;
+}
+
+@media only screen and (max-width: 800px) {
+    .Earth__container {
+        height: 40vh;
+    }
+    
+    .Earth__image img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
